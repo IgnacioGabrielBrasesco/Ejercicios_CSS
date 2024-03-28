@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicios CSS</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="">
+        <ul class="ejVeintiOcho">
+          <li class="liEjVeintiOcho">Sobre mi</li>
+          <li class="liEjVeintiOcho">Galeria</li>
+          <li class="liEjVeintiOcho">Experiencia</li>
+          <li class="liEjVeintiOcho">Contacto</li>
+          <li>
+            <input class="inputSearch" type="search" /><button
+              class="botonSearch"
+            >
+              search
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <div class="encabezado">
+        <img class="HeaderImg" src="./img/ImgHeader.jpg" alt="" />
+        <div class="programadorWeb">
+          <h1>Ignacio Brasesco</h1>
+          <h2>Programador Web Frontend</h2>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="cajaImg">
+        <img class="bordeImg" src="img/ignacio_gabriel_brasesco.jpg" alt="" />
+        <p class="parrafoPresentacion">
+          Bienvenidos a mi Porfolio Web. <br />
+          Acá podrás conocerme un poco: te voy a contar sobre mi experiencia
+          laboral y mi formación profesional. También podrás dejarme un mensaje
+          para contactarte conmigo en caso de que quieras que trabajemos juntos.
+        </p>
+        <a href="/pages/sobre_mi.html">Más sobre mi</a>
+        <button>Galeria de imagenes</button>
+      </div>
+
+      <h2 class="experiencia_laboral">
+        Mi experiencia laboral como programador Web
+      </h2>
+      <ul class="ejListaUno">
+        <li>Creación de pagina Web para Inmobiliaria Sallenave</li>
+        <li>Creación de mi propio Porfolio web</li>
+        <li>Creación de Porfolio Web para Furbo</li>
+      </ul>
+      <p>
+        Las tecnologias utilizadas en todas estas paginas son HTML, CSS,
+        Bootstrap y JavaScript
+      </p>
+    </main>
+    <footer>
+      <h2>Dejame un mensaje</h2>
+      <form class="formulario_footer">
+        <label for="">Nombre</label>
+        <input type="text" name="nombre" />
+        <label for="">Email</label>
+        <input type="email" />
+        <label for="">Comentario</label>
+        <textarea name="comentario" id="comentario" cols="30" rows="10">
+Dejame tu mensaje acá</textarea
+        >
+        <button type="submit">Enviar</button>
+      </form>
+    </footer>
+  </body>
+</html>
